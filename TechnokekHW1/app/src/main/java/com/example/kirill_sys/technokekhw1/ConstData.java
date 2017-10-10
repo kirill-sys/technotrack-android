@@ -4,6 +4,7 @@ public class ConstData {
     static final String STATE_BTN = "btnText";
     static final String STATE_TV = "tvText";
     static final String STATE_TIME = "currTime";
+    static final String STATE_TIME_1 = "currTime1";
 
     private final static String[] units = {
             "", "один", "два", "три", "четыре", "пять", "шесть",
