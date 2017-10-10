@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Technokek HW1</string>
+    <string name="btnStart">start</string>
+    <string name="btnStop">stop</string>
+</resources>
