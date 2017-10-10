@@ -1,5 +1,6 @@
 package com.example.kirill_sys.technokekhw1;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
@@ -12,9 +13,13 @@ public class FirstActivity extends AppCompatActivity {
 
     private CountDownTimer timer;
 
+    public static Activity fa;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        fa = this;
         setContentView(R.layout.activity_first);
         currentTime = 0;
     }
